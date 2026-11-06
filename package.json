@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "echo 'Simulating fatal build error during static compile' && exit 1",
+    "build": "vite build",
     "start": "vite preview --port 3000 --host 0.0.0.0"
   },
   "devDependencies": {
