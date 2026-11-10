@@ -1,11 +1,12 @@
 {
   "name": "qa-cra-static",
   "version": "1.0.0",
-  "private": true,
   "dependencies": {
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "serve": "^14.2.4"
   },
   "scripts": {
-    "build": "mkdir -p build && cp -r public/* build/"
+    "build": "mkdir -p build && cp -r public/* build/",
+    "start": "serve -s build -l 80"
   }
 }
