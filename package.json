@@ -1,12 +1,11 @@
 {
-  "name": "qa-vite-static",
+  "name": "qa-cra-static",
   "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "build": "vite build",
-    "preview": "vite preview"
+  "private": true,
+  "dependencies": {
+    "react-scripts": "5.0.1"
   },
-  "devDependencies": {
-    "vite": "^5.4.0"
+  "scripts": {
+    "build": "mkdir -p build && cp -r public/* build/"
   }
 }
